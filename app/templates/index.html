@@ -3,6 +3,7 @@
 <table class="table">
     <thead>
     <tr>
+        <th scope="col">id</th>
         <th scope="col">Year</th>
         <th scope="col">Flood_Height</th>
     </tr>
@@ -11,6 +12,7 @@
     {% for flood in floods %}
     <tr>
         <td> href="view/{{flood.id}}">{{ flood.Year }}</a></td>
+        <td>{{ flood.id }}</td>
         <td>{{ flood.Year }}</td>
         <td>{{ flood.Flood_Height }}</td>
     </tr>

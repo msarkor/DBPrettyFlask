@@ -3,12 +3,17 @@
 <form action="/edit/{{flood.id}}" method="post">
     <div class="row">
         <div class="col">
-            <label for="Year">Year</label>
-            <input id="fldName" type="text" class="form-control" placeholder="Year" name="Year" value="{{flood.Year}}">
+            <label for="id">id</label>
+            <input id="id" type="text" class="form-control" placeholder="id"
+                   name="id" value="{{flood.id}}">
         </div>
         <div class="col">
-            <label for="FloodHeight">FloodHeight</label>
-            <input id="FloodHeight" type="text" class="form-control" placeholder="FloodHeight"
+            <label for="Year">Year</label>
+            <input id="Year" type="text" class="form-control" placeholder="Year" name="Year" value="{{flood.Year}}">
+        </div>
+        <div class="col">
+            <label for="Flood_Height">Flood_Height</label>
+            <input id="Flood_Height" type="text" class="form-control" placeholder="Flood_Height"
                    name="fldAbbreviation" value="{{flood.FloodHeight}}">
         </div>
     </div>
