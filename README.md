@@ -3,4 +3,4 @@ This project is a homework assignment to teach how to get PyCharm setup with Doc
 #Postman Screenshot
 ![postman request output](screenshots/DataMessage.png)
 #SQL Data Screenshot
-![pycharm data query](screenshots/FloodsDatabase.png)
+![pycharm data query](screenshots/Query.png)
